@@ -873,6 +873,11 @@ body {
   box-sizing: border-box;
 }
 
+.newsletter-email__field {
+  padding-right: 10px;
+  width: 600px;
+}
+
 .field:hover {
   outline: 2px solid #68a2ca;
 }
