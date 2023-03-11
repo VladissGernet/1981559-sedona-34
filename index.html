@@ -253,9 +253,9 @@
 
             <label class="label-adults" for="auth-adults">Взрослые:</label>
 
-            <button class="decrease-button adults-button" type="button"></button>
+            <button class="decrease-button adults-button" id="decrease-adults" type="button"></button>
             <input class="auth-adults-field" type="number" id="auth-adults" name="auth-adults" value="2" min="1">
-            <button class="increase-button adults-button" type="button"></button>
+            <button class="increase-button adults-button" id="increase-adults" type="button"></button>
             <div class="children-container">
               <label class="label-children" for="auth-children">Дети:</label>
               <span class="tooltip">
@@ -265,9 +265,9 @@
               </span>
             </div>
 
-            <button class="decrease-button children-button" type="button"></button>
+            <button class="decrease-button children-button" id="decrease-children" type="button"></button>
             <input class="auth-children-field" type="number" id="auth-children" name="auth-children" value="1" min="0">
-            <button class="increase-button children-button" type="button"></button>
+            <button class="increase-button children-button" id="increase-children" type="button"></button>
             <button class="blue-button" type="submit">Найти</button>
           </form>
         </div>
@@ -275,4 +275,5 @@
     </div>
   </body>
 <script src="js/subscription.js"></script>
+<script src="js/modal.js"></script>
 </html>
