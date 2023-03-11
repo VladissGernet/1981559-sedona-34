@@ -227,7 +227,7 @@ body {
   background-color: #e5e5e5;
 }
 
-.hotel-card .blue-button {
+.favorite-button {
   padding: 9px 15px 8px 15px;
 }
 
@@ -250,7 +250,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  padding: 9px 15px 8px 15px;
   margin: 0;
 }
 
